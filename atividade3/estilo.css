@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(255, 208, 0);
+    padding: 1px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left:  20%;
+}
+section{
+    text-align: center;
+}
+img{
+    margin-top: 1%  ;
+    width: 15%;
+    border-radius: 15%;
+}
+footer{
+    background-color: rgb(255, 208, 0);
+    padding: 1px;
+    text-align: center;
+    margin-left:  20%;
+    margin-right: 20%;
+}
+section p{
+    font-size: 30px;
+}
+#receita2 img{
+    margin-top: 0;
+}
+#receita3 img{
+    margin-top: 0;
+}
