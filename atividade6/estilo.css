@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #0a5e67;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: grid;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 8px 12px;
+}
+
+nav a:hover {
+  background-color: #8baca6;
+  border-radius: 5px;
+}
+
+section {
+  padding: 80px 20px 40px;
+  margin-top: 60px;
+}
+
+h2 {
+  color: #333;
+}
+
+.atividade {
+  border: 1px solid #2b2d2e;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #00eaff49;
+  max-width: 800px;
+  margin: auto;
+}
+
+button {
+  color: #000000;
+  padding: 10px 20px 10px;
+  background-color: aqua;
+  border-width: 1px;
+}
+
+button:hover {
+  color: #00fbff;
+  padding: 10px 20px 10px;
+  background-color: rgb(0, 0, 0);
+  border-width: 1px;
+}
+
+#R1 {
+  background-color: aliceblue
+}
+
+@media (max-width: 780px) {
+  header {
+    position: static;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #444;
+  }
+}

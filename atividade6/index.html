@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Atividades" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="js.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#A1">Atividade 1</a>
+            <a href="#A2">Atividade 2</a>
+            <a href="#A3">Atividade 3</a>
+            <a href="#A4">Atividade 4</a>
+            <a href="#A5">Atividade 5</a>
+            <a href="#A6">Atividade 6</a>
+            <a href="#A7">Atividade 7</a>
+            <a href="#A8">Atividade 8</a>
+            <a href="#A9">Atividade 9</a>
+            <a href="#A10">Atividade 10</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="A1">
+            <div class="atividade">
+                <h2>Atividade 1</h2>
+
+                <p id="R1"></p>
+                <button id="b1" onclick="ola()">Me clica</button>
+            </div>
+        </section>
+
+        <section id="A2">
+            <div class="atividade">
+                <h2>Atividade 2</h2>
+                <p>Informe o número.</p>
+                <input type="number" id="nx" placeholder="Digite aqui...">
+
+                <p id="R2">O número informado foi:</p>
+                <button id="b2" onclick="Numero()">Me clica</button>
+            </div>
+        </section>
+
+        <section id="A3">
+            <div class="atividade">
+                <h2>Atividade 3</h2>
+                <p>Informe o número.</p>
+                <input type="number" id="n1">
+                <p>Informe o número.</p>
+                <input type="number" id="n2">
+
+                <p id="R3">A soma é:
+                </p>
+                <button id="b3" onclick="Soma()">Me clica</button>
+            </div>
+        </section>
+
+        <section id="A4">
+            <div class="atividade">
+                <h2>Atividade 4</h2>
+                <p>O 1°bimestre</p>
+                <input type="number" id="bn1" placeholder="Nota 1">
+                <p>O 2°bimestre</p>
+                <input type="number" id="bn2" placeholder="Nota 2">
+                <p>O 3°bimestre</p>
+                <input type="number" id="bn3" placeholder="Nota 3">
+                <p>O 4°bimestre</p>
+                <input type="number" id="bn4" placeholder="Nota 4">
+
+                <p id="R4">A média final é</p>
+                <button id="b4" onclick="bimest()">Me clica</button>
+            </div>
+        </section>
+
+        <section id="A5">
+            <div class="atividade">
+                <h2>Atividade 5</h2>
+                <p>Informe e valor em metro.</p>
+                <input type="number" id="mm">
+
+                <p id="R5">para centímetros é:</p>
+                <button id="b5" onclick="centimetros()">Me clica</button>
+            </div>
+        </section>
+
+        <section id="A6">
+            <div class="atividade">
+                <h2>Atividade 6</h2>
+                <p>Informe o raio de um círculo</p>
+                <input type="number" id="r">
+
+                <p id="R6">A área é:</p>
+                <button id="b6" onclick="Raiodocirco()">Me clica</button>
+            </div>
+        </section>
+
+        <section id="A7">
+            <div class="atividade">
+                <h2>Atividade 7</h2>
+                <p>Informe o lado do quadrado.</p>
+                <input type="number" id="l">
+
+                <p id="R7">A área do quadrado é:</p>
+                <p id="R7.1">O dobro da área do quadrado é:</p>
+                <button id="b7" onclick="areadoquadrado()">Me clica</button>
+            </div>
+        </section>
+
+        <section id="A8">
+            <div class="atividade">
+                <h2>Atividade 8</h2>
+                <P>Valor por hora</P>
+                <input type="number" id="valorHora">
+                <p>Horas no mês</p>
+                <input type="number" id="horasMes">
+
+                <p id="salarioFinal">Seu salário mensal</p>
+                <button onclick="calcularSalario()">Calcular Salário</button>
+            </div>
+        </section>
+
+        <section id="A9">
+            <div class="atividade">
+                <h2>Atividade 9</h2>
+                <p>Temperatura em °F</p>
+                <input type="number" id="fahrenheit">
+                
+                <p id="resultadoTemp">A temperatura em Celsius é</p>
+                <button onclick="converterParaCelsius()">Converter</button>
+            </div>
+        </section>
+
+        <section id="A10">
+            <div class="atividade">
+                <h2>Atividade 10</h2>
+                <P>Temperatura em °C</P>
+                <input type="number" id="celsius">
+
+                <p id="resultadoF">A temperatura em Fahrenheit é</p>
+                <button onclick="converterParaFahrenheit()">Converter</button>
+            </div>
+        </section>
+    </main>
+    </header>
+</body>
+
+</html>
